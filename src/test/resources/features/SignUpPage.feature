@@ -2,7 +2,7 @@ Feature: As a new moneygaming.com player
          I want to be able to register using my full details
          So that I can play online casino games
 
-  @test
+ // @test
   Scenario: User selects title, enters first name & surname, checks terms & conditions checkbox and validate DOB error message.
     Given user is on Sign Up page
     And user selects "Mr" title from dropdown
